@@ -41,7 +41,7 @@ export default function Experience() {
 
             <div className="text-gray-400 text-sm md:text-right">
               <p className="font-medium text-gray-300">
-                Jan 2026 — Present
+                Jan 2026 — April 2026
               </p>
               <p>Remote</p>
             </div>

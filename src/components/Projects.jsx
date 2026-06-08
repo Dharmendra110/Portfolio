@@ -3,42 +3,36 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Full-Stack Chat Application",
+    title: "CINEVERSE",
     description:
-      "A real-time full-stack chat application built using the MERN stack. It features user authentication, one-to-one messaging, real-time communication with WebSockets, and scalable backend architecture. The project focuses on performance, security, and seamless user experience.",
-    image: "/Project1.jpeg",
-    tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
-    demo: "https://your-chatapp-demo.com",
-    github: "https://github.com/your-chatapp-repo",
+      "CINERVERSE is a modern movie-based web application built using React. The project focuses on delivering a clean, responsive, and user-friendly interface for browsing and exploring movie-related content.",
+    image: "/image.png",
+    tech: ["HTML5", "CSS3", "React.js", " JavaScript"],
+    demo: "https://cinerverse.vercel.app",
+    github: "https://github.com/Dharmendra110/CINERVERSE",
   },
   {
-    title: "Arya Arcade Constructions",
-    description:
-      "A fully responsive and modern website developed for Arya Arcade — a contemporary space designed for comfort, style, and community engagement. The platform showcases services, amenities, and booking features with a seamless user experience across all devices.",
-    image: "/Project2.png",
-    tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-    demo: "https://arya-arcade.vercel.app/",
-    github: "https://github.com/Vinaynetha632/Arya-Arcade",
+    title: "AI Resume Builder",
+    description: "Working",
+    image: "",
+    tech: ["HTML5", "Tailwind css", "React.js", "Node.js"],
+    demo: "",
+    github: "https://github.com/Dharmendra110",
   },
   {
-    title: "Ping Pong Game",
-    description:
-      "A simple yet engaging Ping Pong game built using JavaScript. Players control the paddle to keep the ball in play, showcasing real-time rendering, game logic implementation, and responsive keyboard interactions.",
-    image: "/Project3.png",
-    tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-    demo: "https://vinaynetha632.github.io/ping-pong-game/",
-    github: "https://github.com/Vinaynetha632/ping-pong-game",
+    title: "Mentor-connect",
+    description: "Upcoming",
+    image: "",
+    tech: ["React, Node.js"],
+    demo: "",
+    github: "https://github.com/Dharmendra110",
   },
 ];
 
 export default function Projects() {
   return (
-    <section
-      id="projects"
-      className="py-14 sm:py-20 px-5 sm:px-8 bg-[#0F172A]"
-    >
+    <section id="projects" className="py-14 sm:py-20 px-5 sm:px-8 bg-[#0F172A]">
       <div className="max-w-7xl mx-auto">
-
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-10 sm:mb-12">
           <div>
@@ -78,7 +72,6 @@ export default function Projects() {
 
               {/* Content */}
               <div className="p-5 sm:p-6 flex flex-col flex-grow">
-
                 {/* Tech Tags */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, i) => (
@@ -121,12 +114,10 @@ export default function Projects() {
                     <Github size={18} className="text-gray-300" />
                   </a>
                 </div>
-
               </div>
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );

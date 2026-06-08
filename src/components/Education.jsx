@@ -5,7 +5,6 @@ export default function Education() {
   return (
     <section id="education" className="py-20 px-5 bg-[#0F172A]">
       <div className="max-w-5xl mx-auto">
-
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -13,9 +12,7 @@ export default function Education() {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <h2 className="text-4xl font-bold text-white mb-3">
-            Education
-          </h2>
+          <h2 className="text-4xl font-bold text-white mb-3">Education</h2>
           <p className="text-gray-400">
             Academic foundation and continuous learning journey
           </p>
@@ -24,11 +21,11 @@ export default function Education() {
         {/* Card 1 */}
         <EducationCard
           title="Bachelor of Technology"
-          stream="Electronics & Communication Engineering"
-          college="Your University Name"
+          stream="Computer Science and Engineering"
+          college="Chouksey Engineering College, Bilaspur"
           year="2021 – 2025"
-          location="Your City"
-          gpa="8.5 / 10"
+          location="Bilaspur, Chhattisgarh"
+          gpa="7.5 / 10"
           desc="Comprehensive engineering program with focus on electronics,
           communication systems, and software development fundamentals."
         />
@@ -37,9 +34,9 @@ export default function Education() {
         <EducationCard
           title="Intermediate (12th)"
           stream="Science"
-          college="Your College Name"
+          college="S L S Academy Higher Secondary School, Mungeli"
           year="2019 – 2021"
-          location="Your City"
+          location="Mungeli, Chhattisgarh"
           desc="Higher secondary education with focus on science subjects,
           building foundation for engineering studies."
         />
@@ -48,15 +45,7 @@ export default function Education() {
   );
 }
 
-function EducationCard({
-  title,
-  stream,
-  college,
-  year,
-  location,
-  gpa,
-  desc,
-}) {
+function EducationCard({ title, stream, college, year, location, gpa, desc }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -89,9 +78,7 @@ function EducationCard({
         )}
       </div>
 
-      <p className="text-gray-400 text-sm leading-relaxed">
-        {desc}
-      </p>
+      <p className="text-gray-400 text-sm leading-relaxed">{desc}</p>
     </motion.div>
   );
 }
