@@ -27,7 +27,7 @@ export default function Experience() {
 
             <div>
               <span className="inline-block text-xs tracking-wider bg-blue-600/20 text-blue-400 px-4 py-1 rounded-full mb-4">
-                ● ONGOING ROLE
+                  ● COMPLETED
               </span>
 
               <h3 className="text-2xl sm:text-3xl font-bold text-white">
