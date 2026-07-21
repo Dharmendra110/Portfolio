@@ -37,6 +37,7 @@ export default function Education() {
           college="S L S Academy Higher Secondary School, Mungeli"
           year="2019 – 2021"
           location="Mungeli, Chhattisgarh"
+          percentage="91%"
           desc="Higher secondary education with focus on science subjects,
           building foundation for engineering studies."
         />
@@ -45,7 +46,7 @@ export default function Education() {
   );
 }
 
-function EducationCard({ title, stream, college, year, location, gpa, desc }) {
+function EducationCard({ title, stream, college, year, location, gpa, percentage, desc }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -74,6 +75,11 @@ function EducationCard({ title, stream, college, year, location, gpa, desc }) {
         {gpa && (
           <span className="flex items-center gap-1">
             <Award size={16} /> GPA: {gpa}
+          </span>
+        )}
+         {percentage && (
+          <span className="flex items-center gap-1">
+            <Award size={16} /> Percentage: {percentage}
           </span>
         )}
       </div>
