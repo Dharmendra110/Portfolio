@@ -13,11 +13,11 @@ const projects = [
   },
   {
     title: "AI Resume Builder",
-    description: "Working",
-    image: "",
-    tech: ["HTML5", "Tailwind css", "React.js", "Node.js"],
-    demo: "",
-    github: "https://github.com/Dharmendra110",
+    description: "An intelligent resume creation platform built with the Express.js, React.js, Node.js and styled using Tailwind CSS. The application allows users to input their personal, educational, and professional details, and instantly generates an ATS‑friendly resume with customizable templates.",
+    image: "project2.png",
+    tech: ["React.js", "Tailwind css", "html2pdf.js", "Node.js","Express.js"],
+    demo: "https://ai-resume-builder-dharm-dev.vercel.app",
+    github: "https://github.com/Dharmendra110/AI-Resume-Builder",
   },
   {
     title: "Mentor-connect",
