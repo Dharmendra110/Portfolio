@@ -14,8 +14,8 @@ const projects = [
   {
     title: "AI Resume Builder",
     description: "An intelligent resume creation platform built with the Express.js, React.js, Node.js and styled using Tailwind CSS. The application allows users to input their personal, educational, and professional details, and instantly generates an ATS‑friendly resume with customizable templates.",
-    image: "project2.png",
-    tech: ["React.js", "Tailwind css", "html2pdf.js", "Node.js","Express.js"],
+    image: "Project2.png",
+    tech: ["React.js", "Tailwind css", "html2pdf.js", "Node.js","Express.js, Gemini ai API"],
     demo: "https://ai-resume-builder-dharm-dev.vercel.app",
     github: "https://github.com/Dharmendra110/AI-Resume-Builder",
   },
