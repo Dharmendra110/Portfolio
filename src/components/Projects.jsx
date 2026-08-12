@@ -20,12 +20,12 @@ const projects = [
     github: "https://github.com/Dharmendra110/AI-Resume-Builder",
   },
   {
-    title: "Mentor-connect",
-    description: "Upcoming",
-    image: "",
-    tech: ["React, Node.js"],
-    demo: "",
-    github: "https://github.com/Dharmendra110",
+    title: "React-Mini-Projects",
+    description: "A collection of interactive UI components and small demo projects built with React 19, Vite, Tailwind CSS, Redux Toolkit, and React Router v8. Includes examples like counter, todo app, debounced search, infinite scroll, pagination, star rating, stopwatch, theme switcher, and more — serving as a hands-on playground for learning and experimenting with modern React patterns.",
+    image: "react-mini-projects.png",
+    tech: ["React", "Tailwind CSS", "Redux Toolkit", "React Router"],
+    demo: "https://react-mini-projects-dev.vercel.app/",
+    github: "https://github.com/Dharmendra110/react-mini-projects",
   },
 ];
 
