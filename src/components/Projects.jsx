@@ -8,30 +8,38 @@ const projects = [
       "CINEVERSE is a modern movie-based web application built using React. The project focuses on delivering a clean, responsive, and user-friendly interface for browsing and exploring movie-related content.",
     image: "/cineverse.png",
     tech: ["HTML5", "CSS3", "React.js", " JavaScript"],
-    demo: "https://cinerverse.vercel.app/",
+    demo: "https://cineverse-sigma-plum.vercel.app/",
     github: "https://github.com/Dharmendra110/CINERVERSE",
-   
   },
   {
     title: "AI Resume Builder",
-    description: "An intelligent resume creation platform built with the Express.js, React.js, Node.js and styled using Tailwind CSS. The application allows users to input their personal, educational, and professional details, and instantly generates an ATS‑friendly resume with customizable templates.",
+    description:
+      "An intelligent resume creation platform built with the Express.js, React.js, Node.js and styled using Tailwind CSS. The application allows users to input their personal, educational, and professional details, and instantly generates an ATS‑friendly resume with customizable templates.",
     image: "Project2.png",
-    tech: ["React.js", "Tailwind css", "html2pdf.js", "Node.js","Express.js, Gemini ai API"],
+    tech: [
+      "React.js",
+      "Tailwind css",
+      "html2pdf.js",
+      "Node.js",
+      "Express.js, Gemini ai API",
+    ],
     demo: "https://ai-resume-builder-dharm-dev.vercel.app/",
     github: "https://github.com/Dharmendra110/AI-Resume-Builder",
   },
 
   {
     title: "Blogify",
-    description: "This project is a full blogging web application built with Node.js and Express. while MongoDB is used for persistent data storage. The application follows the MVC architecture and includes responsive UI rendering through EJS templates. It allows users to sign up, sign in, log out, create blog posts, upload cover images, and comment on individual blog posts. ",
+    description:
+      "This project is a full blogging web application built with Node.js and Express. while MongoDB is used for persistent data storage. The application follows the MVC architecture and includes responsive UI rendering through EJS templates. It allows users to sign up, sign in, log out, create blog posts, upload cover images, and comment on individual blog posts. ",
     image: "/blogify.png",
-    tech: [ "Node.js","Express.js", "MongoDB","JWT, Multer" , "EJS"],
+    tech: ["Node.js", "Express.js", "MongoDB", "JWT, Multer", "EJS"],
     demo: "https://blogify-an3u.onrender.com/",
     github: "https://github.com/Dharmendra110/blogify",
   },
   {
     title: "React-Mini-Projects",
-    description: "A collection of interactive UI components and small demo projects built with React 19, Vite, Tailwind CSS, Redux Toolkit, and React Router v8. Includes examples like counter, todo app, debounced search, infinite scroll, pagination, star rating, stopwatch, theme switcher, and more — serving as a hands-on playground for learning and experimenting with modern React patterns.",
+    description:
+      "A collection of interactive UI components and small demo projects built with React 19, Vite, Tailwind CSS, Redux Toolkit, and React Router v8. Includes examples like counter, todo app, debounced search, infinite scroll, pagination, star rating, stopwatch, theme switcher, and more — serving as a hands-on playground for learning and experimenting with modern React patterns.",
     image: "react-mini-projects.png",
     tech: ["React", "Tailwind CSS", "Redux Toolkit", "React Router"],
     demo: "https://react-mini-projects-dev.vercel.app/",
