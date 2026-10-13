@@ -6,7 +6,7 @@ const projects = [
     title: "CINEVERSE",
     description:
       "CINEVERSE is a modern movie-based web application built using React. The project focuses on delivering a clean, responsive, and user-friendly interface for browsing and exploring movie-related content.",
-    image: "/image.png",
+    image: "/cineverse.png",
     tech: ["HTML5", "CSS3", "React.js", " JavaScript"],
     demo: "https://cinerverse.vercel.app",
     github: "https://github.com/Dharmendra110/CINERVERSE",
@@ -18,6 +18,15 @@ const projects = [
     tech: ["React.js", "Tailwind css", "html2pdf.js", "Node.js","Express.js, Gemini ai API"],
     demo: "https://ai-resume-builder-dharm-dev.vercel.app",
     github: "https://github.com/Dharmendra110/AI-Resume-Builder",
+  },
+
+  {
+    title: "Blogify",
+    description: "This project is a full blogging web application built with Node.js and Express. while MongoDB is used for persistent data storage. The application follows the MVC architecture and includes responsive UI rendering through EJS templates. It allows users to sign up, sign in, log out, create blog posts, upload cover images, and comment on individual blog posts. ",
+    image: "/blogify.png",
+    tech: [ "Node.js","Express.js", "MongoDB","JWT, Multer" , "EJS"],
+    demo: "https://blogify-an3u.onrender.com",
+    github: "https://github.com/Dharmendra110/blogify",
   },
   {
     title: "React-Mini-Projects",

@@ -7,7 +7,7 @@ import {
   FaNodeJs,
   FaPython,
 } from "react-icons/fa";
-import { SiMongodb, SiExpress } from "react-icons/si";
+import { SiMongodb, SiExpress,SiTypescript  } from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 size={30} className="text-orange-500" /> },
@@ -17,7 +17,7 @@ const skills = [
   { name: "Node.js", icon: <FaNodeJs size={30} className="text-green-500" /> },
   { name: "MongoDB", icon: <SiMongodb size={30} className="text-green-400" /> },
   { name: "Express.js", icon: <SiExpress size={30} className="text-gray-300" /> },
-  { name: "Python", icon: <FaPython size={30} className="text-yellow-500" /> },
+  { name: "TypeScript", icon: <SiTypescript  size={30} className="text-blue-500" /> },
 ];
 
 export default function Skills() {
